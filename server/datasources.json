@@ -1,6 +1,10 @@
 {
   "db": {
+    "url": "localhost",
+    "database": "grilla",
+    "password": "grilla",
     "name": "db",
-    "connector": "memory"
+    "connector": "mysql",
+    "user": "grilla"
   }
 }
