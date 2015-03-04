@@ -9,7 +9,13 @@ REST API for our football league, La Grilla
     git clone git@github.com:disusered/grilla-api.git
     ```
 
-2. Start application
+2. Install dependencies
+
+    ```bash
+    npm install
+    ```
+
+3. Start application
 
     ```bash
     npm start
