@@ -1,6 +1,6 @@
 grilla-api
 ======
-REST API for our football league, La Grilla
+REST API for La Grilla
 
 ## Development
 1. Checkout the repo
