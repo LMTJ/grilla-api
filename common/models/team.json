@@ -4,16 +4,6 @@
   "strict": false,
   "idInjection": false,
   "properties": {
-    "display": {
-      "type": "string",
-      "required": true,
-      "comments": "Display name"
-    },
-    "name": {
-      "type": "string",
-      "required": true,
-      "comments": "Normalized name"
-    },
     "captain": {
       "type": "string",
       "required": true
@@ -21,6 +11,11 @@
     "color": {
       "type": "string",
       "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "comments": ""
     }
   },
   "validations": [],
