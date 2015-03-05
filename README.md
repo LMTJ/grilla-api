@@ -2,7 +2,7 @@ grilla-api
 ======
 REST API for our football league, La Grilla
 
-## Getting Started
+## Development
 1. Checkout the repo
 
     ```bash
@@ -21,21 +21,17 @@ REST API for our football league, La Grilla
     npm start
     ```
 
-## Scaffolding
+## Tools
 
 #### GUI
-- Open Strongloop Arc
-
-    ```bash
-    npm run gui
-    ```
+```bash
+npm run gui
+```
 
 #### CLI
-- Create a new model
-
-    ```bash
-    npm run new-model
-    ```
+```bash
+slc
+```
 
 ## Dependencies
 - [NodeJS](http://nodejs.org/)
