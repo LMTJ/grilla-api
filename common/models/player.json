@@ -2,21 +2,17 @@
   "name": "Player",
   "base": "PersistedModel",
   "strict": false,
-  "idInjection": false,
+  "idInjection": true,
   "properties": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Team": {
+    "position": {
       "type": "string",
       "required": true
     },
-    "Position": {
-      "type": "string",
-      "required": true
-    },
-    "Goals": {
+    "goals": {
       "type": "string",
       "required": true
     }
