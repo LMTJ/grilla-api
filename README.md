@@ -1,25 +1,13 @@
 grilla-api
 ======
-REST API for our football league, La Grilla
+REST API for La Grilla
 
-## Development
+## Getting Started
 1. Checkout the repo
 
-    ```bash
-    git clone git@github.com:disusered/grilla-api.git
-    ```
+2. Install dependencies with `npm install`
 
-2. Install dependencies
-
-    ```bash
-    npm install
-    ```
-
-3. Start application
-
-    ```bash
-    npm start
-    ```
+3. Start application with `npm start`
 
 ## Tools
 
