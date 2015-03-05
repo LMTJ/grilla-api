@@ -10,7 +10,7 @@
     },
     "position": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "goals": {
       "type": "string",
