@@ -1,10 +1,11 @@
 {
   "db": {
-    "url": "localhost",
+    "host": "localhost",
+    "port": 3306,
     "database": "grilla",
+    "user": "grilla",
     "password": "grilla",
-    "name": "db",
-    "connector": "mysql",
-    "user": "grilla"
+    "name": "mariadb",
+    "connector": "mysql"
   }
 }
