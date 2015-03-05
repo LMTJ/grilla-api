@@ -3,7 +3,7 @@
   "description": "REST API for La Grilla",
   "author": "Carlos Antonio <crosquillas@gmail.com>",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
