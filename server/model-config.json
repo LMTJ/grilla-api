@@ -8,30 +8,31 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mariadb",
+    "public": true
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mariadb",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mariadb",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mariadb",
     "public": false
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mariadb",
     "public": false
   },
   "Team": {
-    "dataSource": null,
+    "dataSource": "mariadb",
     "public": true
   },
   "Player": {
-    "dataSource": "db",
+    "dataSource": "mariadb",
     "public": true
   }
 }
