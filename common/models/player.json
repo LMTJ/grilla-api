@@ -16,13 +16,19 @@
       "type": "string",
       "required": false
     },
-    "team": {
-      "type": "Team",
+    "teamId": {
+      "type": "number",
       "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "team": {
+      "type": "belongsTo",
+      "model": "Team",
+      "foreignKey": "teamId"
+    }
+  },
   "acls": [],
   "methods": []
 }

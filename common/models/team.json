@@ -4,22 +4,33 @@
   "strict": false,
   "idInjection": false,
   "properties": {
-    "captain": {
-      "type": "string",
-      "required": true
-    },
     "color": {
       "type": "string",
       "required": true
     },
     "name": {
       "type": "string",
-      "required": true,
-      "comments": ""
+      "required": true
+    },
+    "players": {
+      "type": [
+        "Player"
+      ],
+      "required": false
+    },
+    "captain": {
+      "type": "Player",
+      "required": false
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "players": {
+      "type": "hasMany",
+      "model": "Player",
+      "foreignKey": "teamId"
+    }
+  },
   "acls": [],
   "methods": []
 }
