@@ -15,6 +15,10 @@
     "goals": {
       "type": "string",
       "required": false
+    },
+    "team": {
+      "type": "Team",
+      "required": false
     }
   },
   "validations": [],
