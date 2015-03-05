@@ -4,6 +4,9 @@
   "author": "Carlos Antonio <crosquillas@gmail.com>",
   "private": true,
   "version": "0.1.1",
+  "engines": {
+    "iojs": "1.0.x"
+  },
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
