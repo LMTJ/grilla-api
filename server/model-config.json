@@ -29,5 +29,9 @@
   "Team": {
     "dataSource": null,
     "public": true
+  },
+  "Player": {
+    "dataSource": "db",
+    "public": true
   }
 }
