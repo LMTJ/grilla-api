@@ -1,6 +1,6 @@
 {
   "name": "Player",
-  "plural": "players",
+  "plural": "Players",
   "base": "PersistedModel",
   "strict": false,
   "idInjection": false,
