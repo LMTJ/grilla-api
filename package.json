@@ -2,8 +2,11 @@
   "name": "grilla-api",
   "description": "REST API for La Grilla",
   "author": "Carlos Antonio <crosquillas@gmail.com>",
-  "private": true,
-  "version": "0.1.1",
+  "version": "0.2.0",
+  "engines": {
+    "node": "0.12.0",
+    "npm": "2.5.1"
+  },
   "main": "server/server.js",
   "scripts": {
     "pretest": "jshint .",
@@ -12,6 +15,7 @@
     "new-model": "slc loopback:model"
   },
   "dependencies": {
+    "strongloop": "^2.10.3",
     "compression": "^1.0.3",
     "errorhandler": "^1.1.1",
     "loopback": "^2.8.0",
