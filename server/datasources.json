@@ -3,9 +3,9 @@
     "host": "localhost",
     "port": 3306,
     "database": "grilla",
-    "user": "grilla",
     "password": "grilla",
     "name": "mariadb",
+    "user": "grilla",
     "connector": "mysql"
   }
 }
